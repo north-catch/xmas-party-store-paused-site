@@ -14,25 +14,16 @@
 
 .header {
   background-color: #0FA04E;
-  background-image: url('images/header-narrow.png');
+  background-image: url('images/header-narrow-stamped.png');
   background-repeat: no-repeat;
   background-position: center; 
   background-size: contain;
   height: 200px;
 }
 
-.stamp {
-  height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: auto;
-}
-
 .content-text {
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Lato,sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -59,10 +50,7 @@
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .header {
-    background-image: url('images/header-wide.png');
-  }
-  .stamp {
-    margin-right: 80px;
+    background-image: url('images/header-wide-stamped.png');
   }
 }
 
@@ -73,9 +61,6 @@
     margin: 0 auto;
   }
   .header {
-    background-image: url('images/header-wide.png');
-  }
-  .stamp {
-    margin-right: 80px;
+    background-image: url('images/header-wide-stamped.png');
   }
 }
