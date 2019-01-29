@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .page {
   position: relative;
   min-height: 100vh;
